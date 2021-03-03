@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgba(7,27,82,1) 0%,
+    rgba(0,128,128,1) 100%
+  );
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.btnchange{
+  background-color: coral;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  margin: 20px 0 0 0;
 }
